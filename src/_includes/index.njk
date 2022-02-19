@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    {# <header>
+      <h1>{{ title }}</h1>
+    </header>
+    <figure>
+      <img src="/img/pic1.jpeg" alt="pic1">
+     
+    </figure>
+    <main>
+     
+      {{ content | safe }}
+    </main> #}
+    <main>
+      
+        <article>
+          <h1>About me</h1>
+          <img src="/img/pic1.jpeg" alt="Sam image" class="pro-img"/>
+
+          <section id="about">
+            
+            <div className="circle">
+              <h3>Samikshya K C. </h3>
+              <p>
+                I am a front-end web developer, currently studying a Web
+                design and development course at Humber.
+              </p>
+              <p>
+                I have a Software engineer degree and a Project Management-IT
+                degree as well.
+              </p>
+              <p>
+                In addition to that I have done numerous other courses to
+                enhance my skill such as: Shecodes, Udemy courses,
+                Javascript30.
+              </p>
+            </div>
+         
+         
+           
+          </section>
+        </article>
+         {{ content | safe }}
+      </main>
+  </body>
+</html>
